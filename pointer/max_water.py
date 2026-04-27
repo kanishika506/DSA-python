@@ -3,7 +3,7 @@ height=[]
 max_area ,i=0 ,0
 j=len(height)-1
 while i<j:
-	current_area=(j-1)*min(height[i],height[j])
+	current_area=(j-1)*min(height[i],height[j]) #width*height
 	max_area=max(current_area, max_area)
 	if height[i]<height[j]:
 		i+=1
